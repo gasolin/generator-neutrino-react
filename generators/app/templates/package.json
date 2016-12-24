@@ -1,0 +1,25 @@
+{
+  "name": "projectname",
+  "version": "0.1.0",
+  "description": "doh",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env PORT=4000 neutrino start",
+    "build": "neutrino build",
+    "test": "neutrino test"
+  },
+  "author": "",
+  "license": "MIT",
+  "config": {
+    "preset": "neutrino-preset-react"
+  },
+  "devDependencies": {
+    "cross-env": "^3.1.3",
+    "neutrino": "^3.0.3",
+    "neutrino-preset-react": "^2.1.0"
+  },
+  "dependencies": {
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  }
+}
