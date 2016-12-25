@@ -34,17 +34,23 @@ module.exports = class extends Generator {
       this.destinationPath('src/')
     );
 
-    this.fs.copy(
-      this.templatePath('README.md'),
-      this.destinationPath('README.md')
-    );
-
     this.fs.copyTpl(
       this.templatePath('_package.json'),
       this.destinationPath('package.json'),
       {
         projectName: this.props.projectName
       }
+    );
+
+    // essentials
+    this.fs.copy(
+      this.templatePath('README.md'),
+      this.destinationPath('README.md')
+    );
+
+    this.fs.copy(
+      this.templatePath('.editorconfig'),
+      this.destinationPath('.editorconfig')
     );
   }
 
