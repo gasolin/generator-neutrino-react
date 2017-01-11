@@ -1,5 +1,7 @@
-# generator-neutrino-react [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+# generator-neutrino-react
 > generate basic react project powered by [neutrino-preset-react](https://github.com/mozilla-neutrino/neutrino-preset-react)
+
+[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
 
 This [neutrino](https://github.com/mozilla-neutrino/neutrino) preset enables building JSX-supported React-based web applications with a common configuration for Webpack, ESLint, Babel, Karma+Mocha, along with a static local development server. And **you don't need to maintain these package configurations and dependencies directly on your project**, neutrino and neutrino-presets handle these for you.
 
@@ -22,7 +24,7 @@ yo neutrino-react
 
 ## License
 
-MIT © [Fred Lin](https://github.com/mozilla-neutrino/)
+Mozilla Public License Version 2.0
 
 
 [npm-image]: https://badge.fury.io/js/generator-neutrino-react.svg
