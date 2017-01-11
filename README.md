@@ -31,5 +31,5 @@ Mozilla Public License Version 2.0
 [npm-url]: https://npmjs.org/package/generator-neutrino-react
 [travis-image]: https://travis-ci.org/gasolin/generator-neutrino-react.svg?branch=master
 [travis-url]: https://travis-ci.org/gasolin/generator-neutrino-react
-[daviddm-image]: https://david-dm.org/gasolin/generator-neutrino-react.svg?theme=shields.io
+[daviddm-image]: https://david-dm.org/gasolin/generator-neutrino-react/status.svg
 [daviddm-url]: https://david-dm.org/gasolin/generator-neutrino-react
