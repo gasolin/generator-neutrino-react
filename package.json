@@ -1,13 +1,9 @@
 {
   "name": "generator-neutrino-react",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "generate basic react project powered by neutrino",
   "homepage": "https://github.com/mozilla-neutrino/generator-neutrino-react",
-  "author": {
-    "name": "Fred Lin",
-    "email": "gasolin@gmail.com",
-    "url": "https://github.com/mozilla-neutrino/"
-  },
+  "author": "Fred Lin <gasolin@gmail.com>",
   "files": [
     "generators"
   ],
@@ -49,5 +45,5 @@
     "prepublish": "gulp prepublish",
     "test": "gulp"
   },
-  "license": "MIT"
+  "license": "MPL-2.0"
 }
