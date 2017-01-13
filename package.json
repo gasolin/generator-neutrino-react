@@ -1,6 +1,6 @@
 {
   "name": "generator-neutrino-react",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "generate basic react project powered by neutrino",
   "homepage": "https://github.com/mozilla-neutrino/generator-neutrino-react",
   "author": "Fred Lin <gasolin@gmail.com>",
